@@ -1,0 +1,11 @@
+
+##### Terminal basic Commands for Git #####
+
+Kindly use "Git Bash" for Windows.
+
+ls -> used to get all available files and folder in current folder.
+cd .. -> used to go back from current folder.
+pwd -> to see present working directory path.
+cd d: -> to go directly into given drive.
+cd folderName -> to go inside given folderName.
+

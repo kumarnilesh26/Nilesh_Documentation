@@ -1,0 +1,17 @@
+
+##### Gradle version fixes ##### 
+
+project level "gradle" folder
+				|
+				|___ "wrapper" folder
+						 |
+						 |___ "gradle_wrapper.properties"   (Update compatible gradle version respect to Android-Studio)
+						 
+						 
+project level "build.gradle" file
+				  |
+				  |___  check version of gradle_build_tool for classpath.
+				  
+
+	
+	
