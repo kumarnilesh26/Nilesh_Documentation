@@ -12,6 +12,23 @@ project level "build.gradle" file
 				  |
 				  |___  check version of gradle_build_tool for classpath.
 				  
-
+app level "build.gradle" file
+			  |
+			  |___	1. check java version
+					2. check kotlin vesrion
+					3. change version of "jvmToolchain" or disable fully
+							kotlin {
+								jvmToolchain(17)
+							}
+					4. change version of "compileOptions"
+							compileOptions {
+								sourceCompatibility = JavaVersion.VERSION_1_8
+								targetCompatibility = JavaVersion.VERSION_1_8
+							}
+							
+							while adding "JavaVersion.VERSION_1_8" then following has to be added
+							kotlinOptions {
+								jvmTarget = "1.8"
+							}
 	
 	

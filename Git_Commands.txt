@@ -3,9 +3,20 @@
 
 Kindly use "Git Bash" for Windows.
 
-ls -> used to get all available files and folder in current folder.
-cd .. -> used to go back from current folder.
-pwd -> to see present working directory path.
-cd d: -> to go directly into given drive.
-cd folderName -> to go inside given folderName.
+ls 				// used to get all available files and folder in current folder.
+cd .. 			// used to go back from current folder.
+pwd 			// to see present working directory path.
+cd d: 			// to go directly into given drive.
+cd folderName 	// to go inside given folderName.
+
+------------------------------------------------------------
+
+
+git clone repositoryPath 		// to get code from remote to local system ( repositoryPath = Http Url)
+git init						// To initilise git setup
+git status						// to see the changes status
+git add fileName1 fileName2 fileName3	// to add individual file with given absolute path.
+git add . 						// to add all modified files
+git commit -m "Commit Message" 	// to commit the changes.
+git push origin remoteBranchName // to push the commited changes into given remoteBranchName
 
